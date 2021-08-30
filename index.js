@@ -296,10 +296,10 @@ let listener = app.listen('3000');
 	dw = ordinal_suffix_of(dw);
 	var finaldate = dd + ' ' + dw + ' ' + dm;
 async function test() {
-await fetch(`https://gkxapi.bloxtech.tech/sessions/get?today=${dd}%20${dw}%20${dm}&hour=${th}&minute=${tm}&key=1ec214f9-80fe-49f8-8cd7-5954aff83315`)
+await fetch(`https://*****..bloxtech.tech//******//get?today=${dd}%20${dw}%20${dm}&hour=${th}&minute=${tm}&key==*************************5`)
   .then(response => response.json())
   .then(data => {
-    console.log(`https://gkxapi.bloxtech.tech/sessions/get?today=${dd}%20${dw}%20${dm}&hour=${th}&minute=${tm}&key=1ec214f9-80fe-49f8-8cd7-5954aff83315`)
+    console.log(`https://*****.bloxtech.tech/******/get?today=${dd}%20${dw}%20${dm}&hour=${th}&minute=${tm}&key=*************************5`)
 console.log(data)
 console.log(data.sessions[0])
   });
