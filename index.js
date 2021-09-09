@@ -117,7 +117,7 @@ const job = schedule.scheduleJob('*/10 * * * *', async function() {
 console.log("bbbbbbbbbbbbbbbbbb")
 	// 606ed19a8c29164e64f20273
   var carddata;
-await fetch(`https://gkxapi.bloxtech.tech/sessions/get?today=${dd}%20${dw}%20${dm}&hour=${th}&minute=${tm}&key=1ec214f9-80fe-49f8-8cd7-5954aff83315`)
+await fetch(`https://gkxapi.bloxtech.tech/sessions/get?today=****%20$****%20$****&hour=****&minute=****&key=************************`)
   .then(response => response.json())
   .then(data => {
 console.log(data)
